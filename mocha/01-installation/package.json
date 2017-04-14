@@ -1,0 +1,22 @@
+{
+  "name": "02-mocha",
+  "version": "1.0.0",
+  "description": "Test mocha module.",
+  "main": "./bin/app.js",
+  "bin": {
+    "02-mocha": "app.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter dot"
+  },
+  "keywords": [
+    "mocha",
+    "test"
+  ],
+  "author": "Wiki Dreams <danielsantosvieiramail@gmail.com> (https://github.com/WikiDreams)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}

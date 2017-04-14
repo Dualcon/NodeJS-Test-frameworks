@@ -1,0 +1,16 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wiki Dreams <danielsantosvieiramail@gmail.com> (https://github.com/WikiDreams)",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.24.1",
+    "geckodriver": "^1.1.3",
+    "selenium-webdriver": "^3.0.0-beta-3"
+  }
+}
